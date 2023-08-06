@@ -9,7 +9,7 @@ steps:
       - echo "build step executed"
 
   - name: test
-    image: apline
+    image: alpine
     commands:
       - echo "test step executed"
 
